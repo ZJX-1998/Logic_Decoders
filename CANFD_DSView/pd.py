@@ -30,8 +30,8 @@ def dlc2len(dlc):
 
 class Decoder(srd.Decoder):
     api_version = 3
-    id = 'ZJX_can-fd'
-    name = 'ZJX_CAN-FD'
+    id = 'zjx_canfd'
+    name = 'ZJX_CANFD'
     longname = 'Controller Area Network with Flexible Data rate'
     desc = 'Field bus protocol for distributed realtime control.'
     license = 'gplv2+'
